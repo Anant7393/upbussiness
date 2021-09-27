@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+   
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'SF Pro Display;', sans-serif;
+overflow-x: hidden;
+
+
+  
+}
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-self: center;
+    margin-top:2rem;
+    color:#7C76BB;
+    padding: 1em 6em;
+
+}
+
+.logo a{
+    
+    text-decoration: none;
+    color:#7C76BB;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.6em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 0 1em;
+   
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.nav li{
+    list-style: none;
+
+}
+.nav a{
+    text-decoration: none;
+    color:#7C76BB;
+    padding-right:2em;
+    font-size: 1.5rem;
+    font-family: 'SF Pro Display;';
+    /* text-transform: uppercase; */
+    font-size: 1em;
+
+}
+/* .nav a:hover{
+    color:#57d4fa;
+    text-decoration: underline;
+    letter-spacing: 1px;
+} */
+
+.toggle{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+}
+.bar{
+    width: 100%;
+    background:black;
+    height: 3px;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+ .current{
+color:#fff !important;
+background-color: #7C76BB;
+border: 1px solid ;
+border-radius: 5px;
+text-align: center;
+display:flex;
+justify-content:center;
+align-items: center;
+align-self: center;
+/* margin-left: 25%; */
+height: 2rem!important;
+padding-right:15px !important ;
+padding-left: 15px !important ;
+margin-top: -2px;
+position: static;
+z-index: 1!important;
+/* overflow: hidden; */
+
+}
+
+
+.up{
+    margin:2rem;
+    padding: 1rem;
+    display:grid;
+    grid-template-columns:40% 55%;
+   
+}
+
+
+.up .left   .hh{
+    font-size:3.0rem;
+     color: #7C76BB;
+     font-family: SF Pro Display;
+font-style: normal;
+font-weight: bold;
+    
+}
+.up .left .lorem{
+    margin-top: .4rem;
+    padding: .15rem;
+}
+.up .right{
+    margin-left: 2rem;
+}
+.up .right img{
+    /* background: url(../images/build\ your\ business.png); */
+    max-height: 500px;
+   max-width:500px ;
+   overflow: hidden;
+}
+.left{
+    background: url(../images/Ellipse\ 15.png) no-repeat;
+}
+.work{
+    /* margin-top:1rem; */
+    background-color: #7C76BB;
+    color: #fff;
+    padding:auto;
+    text-align:center;
+    height: 2.5rem;
+    width:7.5rem;
+    border-radius:5px;
+    
+}
+.talk{
+    background: #fff;
+    color: #7C76BB;
+    border: 2px solid #7C76BB;
+    border-radius:6px;
+    padding:auto;
+    text-align:center;
+    height: 2.5rem; 
+    width: 7.5rem;
+    align-items: center;
+    margin-left: 2rem;
+    
+    /* margin-left: 2rem; */
+
+}
+.talk1{
+    background:rgba(39, 163, 255, 0.16);
+    color: #7C76BB;
+    border: 2px solid #7C76BB;
+    border-radius:6px;
+    padding:auto;
+    text-align:center;
+    height: 2.5rem; 
+    width: 7.5rem;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 30%;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 4rem;
+    
+    /* margin-left: 2rem; */
+
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    text-align:center;
+    margin-top: 2rem;
+    margin-left: -2.25rem;
+    /* margin-left:4rem ; */
+    
+}
+.right{
+    background-image: url(../images/Ellipse\ 5.png) repeat-x;
+}
+.middle {
+    color: #7C76BB;
+    text-align: center;
+    height: 7.6rem;
+    overflow: hidden;
+    background: rgba(220, 240, 255, 0.07);
+    margin-left:1rem;
+    margin-right:1rem;
+    padding: .25rem;
+    padding-top:.80rem;
+/* box-shadow: 0px 14px 37px -10px rgba(179, 179, 179, 0.17) inset; */
+box-shadow: rgba(179, 179, 179, 0.35) 0px 14px 37px -10px inset;
+border-radius: 14px;
+}
+.bb{
+    margin-top:1rem;
+    
+}
+.icons{
+    color: #e5e5e5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    margin-top: -.2rem;
+    font-size:2rem;
+    margin-bottom:1rem;
+}
+.icons img{
+    height:1.5rem;
+    /* margin-top: -1rem; */
+}
+.services{
+    margin: 1rem;
+    margin-top: 2.25rem;
+    padding: .75rem;
+    background-image: url(../images/Ellipse\ 7.png) no-repeat;
+}
+.services .ss{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: bold;
+color: #7C76BB;
+text-align: center;
+font-size: 2.25rem;
+}
+.services .ss2{
+    font-family: 'SF Pro Display';
+font-style: normal;
+color: black;
+text-align: center;
+width: 50%;
+margin-left: 25%;
+margin-top: .5rem;
+}
+.cards{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top:3.5rem;
+}
+
+.web ,.mobile, .product{
+    border-radius: 14px;
+    background-color:rgba(39, 163, 255, 0.16);
+    margin: 2rem;
+    padding: auto;
+    height: 100%;
+}
+.cards{
+    width: 95%;
+}
+
+
+.cards img{
+    height: 100%;
+    width: 100%;
+}
+.cc1,.cc2,.cc3{
+    color: #7C76BB;
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size:2rem;
+text-align: center;
+display: flex;
+justify-content: center;
+}
+.ccp1,.ccp2,.ccp3{
+    color: black;
+    font-family: 'SF Pro Display';
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    
+}
+.business{
+    text-align: center;
+    margin: 2rem;
+    margin-top: 2.5rem;
+    background-image: url(../images/Ellipse\ 7.png) no-repeat cover;
+}
+.business .bus{
+    font-size: 2.5rem;
+     color: #7C76BB;
+     font-weight: bold;
+     margin: 1rem;
+     padding: 1rem; 
+     font-family: 'SF Pro Display';
+
+}
+.business img{
+    width: 60%;
+    height: 60%;
+
+}
+.talk3{
+    background: #fff;
+    color: #7C76BB;
+    border: 2px solid #7C76BB;
+    border-radius:6px;
+    padding:auto;
+    text-align:center;
+    height: 2.5rem; 
+    width: 7.5rem;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 45%;
+    /* margin-left: 2rem; */
+    
+    /* margin-left: 2rem; */
+
+}
+.footer {
+   
+    padding: 2rem;
+    margin-top:2.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.foot{
+    display: grid;
+grid-template-columns: 33.5% 22.5% 22.5% 21%;
+margin-top: 1rem;
+height: 100%;
+width: 100%;
+}
+.footer{
+    background-color:rgba(246, 251, 255, 1);
+}
+.f1{
+    color: #7C76BB;
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 2rem;
+}
+.f2{
+    color: #7C76BB;
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 1.4rem;
+padding-left:2.75rem;
+}
+.f3{
+    color: #7C76BB;
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 1.4rem;
+margin-left: -2.5rem;
+}
+.f4{
+    color: #7C76BB;
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 1.4rem;
+}
+.footer .fas{
+    color: #ff87b0;
+}
+.fp1{
+    
+font-family: 'SF Pro Display' ;
+font-style: normal ;
+font-weight: 500;
+font-size:1rem;
+color: black;
+margin: auto;
+padding:1.25rem;
+}
+.footicons{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color:rgba(246, 251, 255, 1);
+    font-size: 1.35rem;
+    margin: 1.25rem .2rem .5rem 25%;
+    
+    
+}
+.footicons .fab{
+    margin-left: 1.25rem;
+    background:rgba(246,251,255,1);
+    
+    padding: auto;
+   
+}
+.fp2 p{
+    color: black;
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+margin-top: .75rem;
+font-size:1rem;
+
+}
+.fp3{
+    color: black;
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+margin-top: .75rem;
+font-size:1rem;
+display: flex;
+
+
+}
+.f3 .fas{
+    color: #7C76BB;
+    margin-right: .55rem;
+    width: 5.25%
+}
+.fp4{
+    font-family: 'SF Pro Display';
+    font-size:1rem;
+    color: black;
+    margin-top: .60rem;
+font-style: normal;
+font-weight: 500;
+}
+.fp4 p{
+    margin-bottom:.80rem;
+}
+@media (max-width: 480px){
+
+    .logo{
+        padding: 0 0.5em;
+    }
+    .toggle{
+      display: flex;
+    }
+
+    
+    
+    .nav li{
+        padding-bottom: 2em;
+        text-align: center;
+    }
+    .nav ul{
+        padding-top: 3em;
+        flex-direction: column;
+        display: none;
+
+    }
+}
+
+@media (max-width: 812px) and (min-width: 768px)  
+ {
+
+    .logo{
+        padding: 0 0.5em;
+    }
+    .toggle{
+      display: flex;
+    }
+
+    
+    
+    .nav li{
+        padding-bottom: 2em;
+        text-align: center;
+    }
+    .nav ul{
+        padding-top: 3em;
+        flex-direction: column;
+        display: none;
+
+    }
+
+    .up{
+        display:block;
+    }
+ .middle{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+ }
+ .icons{
+    
+        display:none;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    
+ }
+ .cards{
+     display: flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+ }
+ .talk1{
+     margin-left: 40%;
+ }
+ 
+ .talk3{
+     margin-left: 40%;
+ }
+ .business .bus{
+    font-size: 1.5rem;
+ }
+ .foot{
+     display: flex;
+     flex-direction:column;
+     align-items:center;
+     justify-content:center;
+ }
+ .f1{
+     margin-left:2%
+ }
+ .f2{
+     margin-left:2%
+ }
+ .f3{
+     margin-left:2%
+ }
+ .f4{
+     margin-left:2%
+ }
+
+}
+
+
+
+@media (max-width: 767px)  
+ {
+
+    .logo{
+        padding: 0 0.5em;
+    }
+    .toggle{
+      display: flex;
+    }
+
+    
+    
+    .nav li{
+        padding-bottom: 2em;
+        text-align: center;
+    }
+    .nav ul{
+        padding-top: 3em;
+        flex-direction: column;
+        display: none;
+
+    }
+
+    .up{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .middle{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+     }
+     .icons{
+         display: none;
+     }
+     .cards{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .business .bus{
+        font-size: 1.25rem;
+     }
+     .foot{
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-start;
+    }
+    .f1{
+        margin-left:2%
+    }
+    .f1{
+        margin-left:2%
+    }
+    .f2{
+        margin-left:2%
+    }
+    .f3{
+        margin-left:2%
+    }
+    .f4{
+        margin-left:2%
+    }
+
+}
